@@ -1,14 +1,16 @@
-import React, { PropsWithChildren } from "react";
-import { NavigationContainer } from '@react-navigation/native';
-import App from "./app/App";
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import {NativeBaseProvider} from 'native-base';
+import App from './app/App';
 
 const Main = () => {
+  return (
+    <NativeBaseProvider>
+    <NavigationContainer>
+        <App />
+    </NavigationContainer>
+    </NativeBaseProvider>
+  );
+};
 
-    return (
-        <NavigationContainer>
-            <App />
-        </NavigationContainer>
-    )
-}
-
-export default Main
+export default Main;
