@@ -2,8 +2,13 @@
  * @format
  */
 
-import {AppRegistry} from 'react-native';
-import Main from './Main';
+import {AppRegistry, Platform} from 'react-native';
+import Main from './main';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Main);
+if(Platform.OS === 'ios'){
+    AppRegistry.registerComponent('frontend', () => Main);
+}else if (Platform.OS === 'android'){
+    AppRegistry.registerComponent(appName, () => Main);
+}
+
