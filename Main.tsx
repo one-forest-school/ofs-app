@@ -9,7 +9,7 @@ const Main = () => {
     <NativeBaseProvider theme={customTheme}>
       <NavigationContainer>
         <App />
-        </NavigationContainer>
+      </NavigationContainer>
     </NativeBaseProvider>
   );
 };

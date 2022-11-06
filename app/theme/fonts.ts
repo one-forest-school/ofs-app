@@ -1,10 +1,5 @@
+interface FontInterface {}
 
-interface FontInterface {
-
-}
-
-const fonts: FontInterface = {
-
-};
+const fonts: FontInterface = {};
 
 export default fonts;

@@ -1,10 +1,5 @@
+interface ConfigInterface {}
 
-interface ConfigInterface {
-
-}
-
-const config: ConfigInterface = {
-
-};
+const config: ConfigInterface = {};
 
 export default config;

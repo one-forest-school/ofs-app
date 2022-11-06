@@ -1,12 +1,5 @@
+interface ColorInterface {}
 
-
-interface ColorInterface {
-
-    
-}
-
-const colors: ColorInterface = {
-
-};
+const colors: ColorInterface = {};
 
 export default colors;

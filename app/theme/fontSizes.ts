@@ -1,10 +1,5 @@
+interface FontSizeInterface {}
 
-interface FontSizeInterface {
-
-}
-
-const fontSizes: FontSizeInterface = {
-
-};
+const fontSizes: FontSizeInterface = {};
 
 export default fontSizes;
