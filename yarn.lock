@@ -10342,6 +10342,7 @@ __metadata:
     lint-staged: ^13.0.3
     metro-react-native-babel-preset: ^0.72.1
     native-base: ^3.4.17
+    prettier: ^2.7.1
     react: 18.1.0
     react-native: 0.70.4
     react-native-bootsplash: ^4.3.3
@@ -10804,7 +10805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.2":
+"prettier@npm:^2.0.2, prettier@npm:^2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
