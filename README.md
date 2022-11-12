@@ -12,7 +12,7 @@
 
 ### Run Android
 ```
-yarn run andriod 
+yarn run android 
 ```
 
 ### Run IOS 
@@ -34,5 +34,11 @@ yarn run ios
 
 > TBD
 
-org.reactjs.native.example.ofs
+### Upgrading Yarn from 1 to 3 (This code base has yarn 3)
+
+> https://yarnpkg.com/getting-started/migration
+
+## TODO
+
+- Complete splashscreen setup : https://github.com/zoontek/react-native-bootsplash/
 
