@@ -38,6 +38,16 @@ yarn run ios
 
 > https://yarnpkg.com/getting-started/migration
 
+### Added Husky to check linting in your commit
+
+> https://typicode.github.io/husky/
+
+Steps to install in your system:
+- yarn install
+- yarn run prepare
+
+You are all set to go to use husky
+
 ## TODO
 
 - Complete splashscreen setup : https://github.com/zoontek/react-native-bootsplash/
